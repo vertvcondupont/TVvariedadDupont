@@ -1,0 +1,75 @@
+/*----------------------------------------------------MENU---------------------------------------------------*/
+.navbar 
+{
+    background: linear-gradient(90deg, rgb(0, 0, 0) 5%, rgb(3, 119, 111) 50%,  rgb(0, 0, 0) 99%);
+}
+#nav
+{
+    font-family: sans-serif;
+}
+#navbarTogglerDemo01 a
+{
+    position: relative;
+    font-size: 17px;    
+}
+#navbarTogglerDemo01 a:after
+{
+    position: absolute;
+    bottom: 7px;
+    left: 0px;
+    width: 100%;
+    height: 4px;
+    background-color:aqua;
+    content: "";
+    opacity: 0;
+    transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+    transform: translateY(10px);
+}
+#navbarTogglerDemo01 a:hover:after{
+    opacity:1;
+    transform: translateY(14px)
+}
+#navbarTogglerDemo01 a
+{
+    color: white;
+    
+}
+#navbarTogglerDemo01 a:hover
+{
+    background: linear-gradient(40deg, rgb(0, 0, 0) 5%, rgb(3, 119, 111) 50%,  rgb(0, 0, 0) 99%);
+}
+
+/*----------------------------------------------------TV DEPORTES---------------------------------------------------*/
+#logosD
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#logosD img
+{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;    
+}
+
+iframe
+{
+    width: 100%;
+    height: 100%;
+}
+/*--------------------------------------------SERIES EN VIVO----------------------------------------------------------------*/
+.fondo
+{
+    background-color: black;
+}
+#logosS
+{
+    margin-top: 1%;
+}
+#logosS img
+{
+    margin: auto;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+}
